@@ -1,0 +1,97 @@
+Important points collect on below topics:
+
+Command for create component.
+two-way data binding
+templateUrl property in Angular templates
+conditional rendering of elements based on a certain expression
+start receiving values from an Observable instance in Angular
+To create a custom pipe in Angular
+declaring a directive in an NgModule in Angular
+multicasting in the context of observables in Angular
+two properties commonly found in a route definition in Angular
+ reactive forms differ in terms of form validation from template-drive forms
+feature facilitates two-way data binding between Angular FormControl instances and built-in DOM elements
+--------------
+Refer the below given Javascript, the function 'comp' implemented in conventional method. 
+#code_start_Javascript 
+function comp(a) { 
+return a - 200; 
+} 
+#code_end 
+What is the correct replacement of an arrow function for the above implemented conventional function
+--------------------
+Which of the following scripts can be used to manipulate the HTML element given below and set the inner text of the 'p' tag as 'Welcome'? 
+<p id="mytag"></p>
+------------------------
+install Angular CLI globally
+-------------------
+directive modifies DOM hierarchy?
+-------------
+Which wild card is used to define the page not found route?
+------------------------
+What is a route parameter in Angular routing?
+-------------------------
+Angular service
+-----------------
+What is TypeScript primarily used for?
+------------
+Which data type in TypeScript represents a variable that can hold multiple values?
+---------------------
+What is the primary goal of Agile iterations or sprints?
+---------------------
+Which Agile framework emphasizes continuous improvement and adaptation?
+-----------------------------
+In Agile, what is a "user story"?
+-----------------
+Which JavaScript object provides utilities to iterators over a given sequence that implements the iterator protocol?
+------------------------
+Which of the following keywords can be used to prevent re-assignment to a variable?
+-----------------------
+What type of operator is used to check whether the values of the two operands are equal or not?
+------------------
+Which of the following string methods returns the combined result of two or more strings?
+--------------------
+Which of the following string methods returns a string between the two given indexes?
+------------------
+let fruits: Array<string> = ['Pear', 'Kiwi', 'Date']; - What type of array declaration is used in the given example?
+----------------
+What type of array is used when data is stored in a row and column-based index?
+--------------------
+Which of the following array methods is used to return the section of an array in the new array?
+------------------------
+Which of the following scopes is not defined in ES6?
+--------------------
+What is the role of a Scrum Master in an Agile team?
+----------------------
+Which Agile practice involves breaking down work into small, manageable tasks?
+--------------------
+Which module is required to import in order to use Angular Reactive Forms?
+-----------------
+Which directive is used to bind form controls to properties in Angular Reactive Forms?
+------------------
+What is the purpose of FormGroup in Angular Reactive Forms?
+---------------------
+Which method is used to get the value of a form control in Angular Reactive Forms?
+-----------------------
+What event is triggered when the value of a form control changes in Angular Reactive Forms?
+-----------------------
+Which Angular lifecycle hook is called once after the component's input properties have been initialized?
+---------------------
+When does the ngOnInit() lifecycle hook get called in Angular?
+--------------
+What is the purpose of the ngOnDestroy() lifecycle hook in Angular?
+-----------------
+Consider you need to have multiple data types in an array at a specific location, while defining the array-type annotations, using Typescript. What can be used in such scenario ?
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+

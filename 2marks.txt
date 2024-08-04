@@ -1,0 +1,192 @@
+How does the NgIf directive work in Angular for adding or removing elements from the DOM based on a condition?
+---------------------
+What is the role of the @Injectable decorator in Angular services?
+------------------
+Which property can be used to add inline styles directly onto elements that you want to dynamically style?
+--------------------
+Suppose you are given a piece of code. What will be the output of the following code? 
+
+Code: 
+
+let a1:number[]; 
+
+a1 = [10, 20, 30, 40] 
+
+console.log("Array: " +a1[1]); 
+
+console.log("Array: " +a1[3]);
+-----------------
+
+Assume that you want to use an array constructor. Then which of the following statements is correct when you want to pass an argument for array creation? 
+
+S1: A numeric value which represents the size of an array 
+
+S2: A list of colon-separated values
+----------------
+Consider that you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+let a1 = [ -3, 5, -9]; 
+
+let a2 = [ 1, 8,- 4]; 
+
+let mergedArray = [...a1, ...a2]; 
+
+console.log("A3: " +mergedArray);
+-----------------------------
+What are the three steps involved in using form controls in Angular's reactive forms?
+-------------------------------
+What will be the output of the following code? 
+
+ 
+
+const bar = new Observable((subscriber) => { 
+
+ console.log('Greetings'); 
+
+ subscriber.next(99); 
+
+}); 
+
+ 
+
+bar.subscribe((a) => { 
+
+ console.log(a); 
+
+}); 
+
+bar.subscribe((b) => { 
+
+ console.log(b); 
+
+});
+-----------------
+How can you display the value of a form control in Angular's reactive forms?
+--------------------
+In Angular, the HttpClient module is a powerful tool used for handling HTTP requests and responses. Which of the following statements accurately describes the capabilities of the HttpClient module?
+------------------------
+In Angular, what is the purpose of the providedIn property when using the @Injectable decorator?
+--------------------
+What is the scope of a service that is provided at the root level (providedIn: 'root')
+-----------------------------------
+In Angular template-driven forms, how do you handle form submission?
+---------------------
+How can you pass data from the child component to the parent component?
+-----------------
+Which data type is used to represent a collection of elements in TypeScript?
+------------------
+What's the result of the following code? 
+
+const person = { name: "John", age: 30 }; 
+
+const { name, age } = person; 
+
+console.log(name, age);
+---------------------------
+Based on the given code
+
+for (let i = 0; i < 5; i++) {
+
+setTimeout(() => console.log(i), 100);
+
+}
+
+What is the value of i after completing the for loop?
+--------------------------
+Question 1: What is the output of the following code snippet? 
+
+var x = 10; 
+
+function foo() { 
+
+ console.log(x); 
+
+ var x = 20; 
+
+}
+-----------------------------
+Assume that you are given a few statements about array function. Considering the given statement, which of them are correct? 
+
+S1: If the arrow function needs to call itself, use a named function expression instead. 
+
+S2: Arrow functions can neither have a concise body nor the usual block body.
+--------------------
+
+Consider that you are given a few statements about array function. Considering the given statement, which of them are correct? 
+
+S1: Arrow functions allow us to write longer function syntax. 
+
+S2: Arrow functions have no super.
+--------------
+Consider that you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+let total = (a1: number, a2: number): number => {return a1 + a2;} 
+
+console.log(total(20, 30));
+-------------------
+Consider that you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+var a1:number[][] = [[5,-1,9],[2,8,-5]] ; 
+
+console.log(a1[0][0]); 
+
+console.log(a1[0][2]); 
+
+console.log(a1[1][2]);
+--------------------------------
+Suppose you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+let i:any; 
+
+let a1:string[] = ["I", "am a", "TypeScript", "Developer"]; 
+
+for(i in a1) { 
+
+ console.log(a1[i]) 
+
+}
+--------------------------
+Consider that you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+let a1 = new String("TypeScript"); 
+
+console.log("Text: " +a1); 
+
+console.log("Len: "+a1.length);
+-------------------------------
+Consider that you are given a piece of code. What will be the output of the following code?
+
+Code:
+
+type A = 'A1' | 'A2' | 'A3'; 
+
+let animal: A; 
+
+if(animal = 'A1'){ 
+
+ console.log("Yes"); 
+
+}; 
+
+if(animal = 'A4') 
+
+{ 
+
+ console.log("No"); 
+
+};
+--------------------------
+What are the general steps to create a custom pipe in Angular?
+---------------------------
+In the context of Angular, which statement accurately describes the relationship between Angular and Bootstrap?
+---------
